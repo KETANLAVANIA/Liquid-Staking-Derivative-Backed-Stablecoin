@@ -1,28 +1,23 @@
-REMIX DEFAULT WORKSPACE
+# Learn-to-Earn Streaming Platform
 
-Remix default workspace is present when:
-i. Remix loads for the very first time 
-ii. A new workspace is created with 'Default' template
-iii. There are no files existing in the File Explorer
+## Liquid Staking Derivative-Backed Stablecoin
+This project integrates a learn-to-earn model where users are rewarded with a liquid staking derivative-backed stablecoin for completing educational content.
 
-This workspace contains 3 directories:
+## Project Description
+The Learn-to-Earn Streaming Platform incentivizes users to engage in educational content. Creators can publish their content with a reward pool that is distributed to users upon successful completion of the content. Rewards are designed to enhance user engagement while supporting decentralized finance through liquid staking derivatives.
 
-1. 'contracts': Holds three contracts with increasing levels of complexity.
-2. 'scripts': Contains four typescript files to deploy a contract. It is explained below.
-3. 'tests': Contains one Solidity test file for 'Ballot' contract & one JS test file for 'Storage' contract.
+## Contract Address
+0xa3ab0165d9355ee3547ceda29927a176619322ee
 
-SCRIPTS
+## Project Vision
+Our vision is to create a decentralized platform where learning is both engaging and rewarding. By combining blockchain technology with educational initiatives, we aim to:
+- Promote continuous learning.
+- Provide financial incentives for users to upskill themselves.
+- Leverage decentralized finance for seamless reward distribution.
 
-The 'scripts' folder has four typescript files which help to deploy the 'Storage' contract using 'web3.js' and 'ethers.js' libraries.
-
-For the deployment of any other contract, just update the contract's name from 'Storage' to the desired contract and provide constructor arguments accordingly 
-in the file `deploy_with_ethers.ts` or  `deploy_with_web3.ts`
-
-In the 'tests' folder there is a script containing Mocha-Chai unit tests for 'Storage' contract.
-
-To run a script, right click on file name in the file explorer and click 'Run'. Remember, Solidity file must already be compiled.
-Output from script will appear in remix terminal.
-
-Please note, require/import is supported in a limited manner for Remix supported modules.
-For now, modules supported by Remix are ethers, web3, swarmgw, chai, multihashes, remix and hardhat only for hardhat.ethers object/plugin.
-For unsupported modules, an error like this will be thrown: '<module_name> module require is not supported by Remix IDE' will be shown.
+## Key Features
+- **Content Creation**: Creators can publish educational content with customizable reward pools.
+- **User Incentives**: Users earn rewards in stablecoins backed by liquid staking derivatives for completing content.
+- **Fair Reward Distribution**: A portion of the reward pool is allocated to users upon successful completion of the content.
+- **Secure Withdrawals**: Users can withdraw their rewards anytime.
+- **Scalability**: Built to accommodate a growing library of educational content and users.
